@@ -1,0 +1,15 @@
+MyFunctionDemo:
+  Component: fc
+  Provider: aliyun
+  Properties:
+    Region: cn-hangzhou
+    Service:
+      Name: abc
+      Description: 欢迎使用ServerlessTool
+    Function:
+      Name: serverless_demo
+      Description: 这是一个Nodejs10的测试案例
+      CodeUri: ./
+      Handler: index.handler
+      MemorySize: 512
+      Runtime: nodejs10
